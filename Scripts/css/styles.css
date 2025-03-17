@@ -1,6 +1,3 @@
-@import url("PrettierLichessVariables.css");
-/*Variables from Prettier Lichess*/
-
 /* Basic Element Styling */
 #evaluation {
   opacity: 0;
@@ -136,6 +133,10 @@ span.cloud {
 }
 
 .game__meta .game__simul-link {
+  text-align: center !important;
+}
+
+.game__meta .game__tournament-link {
   text-align: center !important;
 }
 
@@ -607,6 +608,28 @@ span.data-count::after {
   background-color: var(--surfaceColor) !important;
 }
 
+tr.me td.rank {
+  background: linear-gradient(to right, var(--primaryColor) 0px, var(--primaryColor) 5px, rgba(0, 0, 0, 0) 5px, rgba(0, 0, 0, 0) 100%) !important;
+}
+
+.swiss__main__header .ongoing span.nb {
+  font-weight: 500 !important;
+}
+
+.swiss__notice .bar-glider {
+  background: var(--surfaceColor) !important;
+}
+
+.swiss__ur-playing.button.is.is-after::after, .swiss__ur-playing.button.is.is-after::before {
+  transform: translate(0, -50%) !important;
+}
+
+.swiss__controls button.fbt.text {
+  font-size: 0.875rem !important;
+  letter-spacing: 1.5px !important;
+  font-weight: 450 !important;
+}
+
 .relay-tour__side {
   min-height: 125vh !important;
 }
@@ -621,6 +644,12 @@ span.data-count::after {
 
 .gamebook {
   margin-left: 0 !important;
+}
+
+.gamebook-buttons button {
+  border-top-left-radius: 0 !important;
+  line-height: 1 !important;
+  padding: 0.75rem 1.25rem !important;
 }
 
 span.status.contrib.online.active {
