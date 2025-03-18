@@ -1,0 +1,34 @@
+:root {
+  --c-secondary: var(--primaryColor) !important;
+  --c-secondary-dim: var(--primaryColor) !important;
+  --c-secondary-dimmer: var(--primaryColor) !important;
+  --c-dasher: var(--primaryColor) !important;
+  --m-secondary_bg--mix-10: var(--primaryColor) !important;
+  --m-secondary_bg--mix-12: var(--primaryColor) !important;
+  --m-secondary_bg--mix-15: var(--primaryColor) !important;
+  --m-secondary_bg--mix-20: var(--primaryColor) !important;
+  --m-secondary_bg--mix-25: var(--primaryColor) !important;
+  --m-secondary_bg--mix-30: var(--primaryColor) !important;
+  --m-secondary_bg--mix-35: var(--primaryColor) !important;
+  --m-secondary_bg--mix-40: var(--primaryColor) !important;
+  --m-secondary_bg--mix-50: var(--primaryColor) !important;
+  --m-secondary_bg--mix-70: var(--primaryColor) !important;
+  --m-secondary_bg--mix-75: var(--primaryColor) !important;
+  --m-secondary_bg--mix-80: var(--primaryColor) !important;
+
+  --c-brag: var(--c-font) !important;
+  
+  --surfaceBackground: color-mix(in oklab, var(--surfaceColor) 50%, var(--backgroundColor));
+
+  --c-bg: var(--surfaceColor) !important;
+  --c-bg-box: var(--surfaceBackground) !important;
+  --c-bg-high: var(--surfaceColor) !important;
+  --c-bg-low: var(--surfaceColor) !important;
+  --c-bg-page: var(--surfaceColor) !important;
+  --c-bg-zebra: var(--surfaceColor) !important;
+  --c-bg-zebra2: var(--surfaceColor) !important;
+  --c-bg-popup: var(--surfaceColor) !important;
+  --c-bg-header-dropdown: var(--surfaceColor) !important;
+  --c-bg-input: var(--surfaceColor) !important;
+  --c-bg-variation: var(--surfaceColor) !important;
+}
