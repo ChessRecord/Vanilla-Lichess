@@ -12,6 +12,17 @@
   color: #000;
 }
 
+/* Lobby App Pools */
+div.lobby__app.lobby__app-pools div.lobby__app__content.lpools div.perf {
+  font-family: "Red Hat Text", sans-serif !important;
+  text-transform: uppercase;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 1.5px !important;
+  color: color-mix(in oklab, var(--c-font) 75%, #00000000) !important;
+}
+
+
 /* Header Elements */
 .site-title:hover .site-name {
   color: #fff !important;
@@ -418,6 +429,15 @@ a.stream.highlight[title] {
   width: 100%;
 }
 
+.relay-tour .now-playing {
+  border: none !important;
+}
+
+.relay-tour div.study__multiboard div.study__multiboard__top div.study__multiboard__options {
+  margin-top: 0.75rem !important;
+  padding-left: 0.75rem !important;
+}
+
 /* Layout Elements */
 fieldset.analyse__wiki.toggle-box.toggle-box--toggle {
   margin-bottom: 0 !important;
@@ -608,10 +628,6 @@ span.data-count::after {
   background-color: var(--surfaceColor) !important;
 }
 
-tr.me td.rank {
-  background: linear-gradient(to right, var(--primaryColor) 0px, var(--primaryColor) 5px, rgba(0, 0, 0, 0) 5px, rgba(0, 0, 0, 0) 100%) !important;
-}
-
 .swiss__main__header .ongoing span.nb {
   font-weight: 500 !important;
 }
@@ -654,4 +670,22 @@ tr.me td.rank {
 
 span.status.contrib.online.active {
   background-color: transparent !important;
+}
+
+blockquote.pull-quote footer {
+  padding-right: 1.5rem !important;
+}
+
+fieldset.analyse__wiki.toggle-box.toggle-box--toggle, fieldset.analyse__wiki.toggle-box.toggle-box--toggle * {
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
+fieldset.analyse__wiki.toggle-box.toggle-box--toggle legend {
+  display: none !important;
+}
+
+fieldset.analyse__wiki.toggle-box.toggle-box--toggle div.analyse__wiki-text p a {
+  padding-top: 1.25rem !important;
 }
