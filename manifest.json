@@ -18,7 +18,8 @@
       "matches": ["https://lichess.org/*"],
       "css": [
         "Scripts/css/styles.css",
-        "Scripts/css/Board/board.css"
+        "Scripts/css/Board/board.css",
+        "Scripts/css/root.css"
       ],
       "js": [
         "Scripts/js/script.js",
