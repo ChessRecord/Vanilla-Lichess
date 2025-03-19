@@ -123,6 +123,10 @@ span.cloud {
   background: var(--surfaceColor) !important;
 }
 
+.analyse__underboard * {
+  font-family: "Red Hat Text", sans-serif !important;
+}
+
 .acpl-chart-container-loader span {
   text-transform: capitalize;
 }
