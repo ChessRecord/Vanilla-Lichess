@@ -293,6 +293,20 @@ div.analyse__round-training div.analyse__acpl div.advice-summary div.advice-summ
   font-family: "Red Hat Text", sans-serif !important;
 }
 
+fieldset.analyse__wiki.toggle-box.toggle-box--toggle, fieldset.analyse__wiki.toggle-box.toggle-box--toggle * {
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
+fieldset.analyse__wiki.toggle-box.toggle-box--toggle legend {
+  display: none !important;
+}
+
+fieldset.analyse__wiki.toggle-box.toggle-box--toggle div.analyse__wiki-text p a {
+  padding-top: 1.25rem !important;
+}
+
 /* Eval Gauge */
 div.eval-gauge div.black {
   background-color: var(--surfaceColor) !important;
@@ -678,18 +692,4 @@ span.status.contrib.online.active {
 
 blockquote.pull-quote footer {
   padding-right: 1.5rem !important;
-}
-
-fieldset.analyse__wiki.toggle-box.toggle-box--toggle, fieldset.analyse__wiki.toggle-box.toggle-box--toggle * {
-  box-shadow: none !important;
-  border: none !important;
-  outline: none !important;
-}
-
-fieldset.analyse__wiki.toggle-box.toggle-box--toggle legend {
-  display: none !important;
-}
-
-fieldset.analyse__wiki.toggle-box.toggle-box--toggle div.analyse__wiki-text p a {
-  padding-top: 1.25rem !important;
 }
