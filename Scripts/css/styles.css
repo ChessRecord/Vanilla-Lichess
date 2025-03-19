@@ -548,10 +548,6 @@ main.page-menu:has(.subnav):has(.page-menu__content) .page-menu__content {
   margin: 0 5px !important;
 }
 
-a.variant-link {
-  display: block !important;
-}
-
 .rclock .time {
   margin: auto 0 !important;
 }
@@ -639,6 +635,8 @@ span.data-count::after {
 }
 /*###*/
 
+/* Relay Tour UI */
+
 .relay-tour__side__name,
 .streamer-show.data-count,
 .relay-tour__side__search {
@@ -690,6 +688,13 @@ span.status.contrib.online.active {
   background-color: transparent !important;
 }
 
+/* Pull Quote */
+
 blockquote.pull-quote footer {
   padding-right: 1.5rem !important;
+}
+
+blockquote.pull-quote p {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
