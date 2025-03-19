@@ -230,6 +230,14 @@ div.puzzle__side__metas div.infos div div.players span.utitle {
   font-weight: 550 !important;
 }
 
+.puzzle__side__config__color group.radio div a {
+  background: var(--surfaceColor) !important;
+}
+
+.puzzle__side__config__color group.radio div a.label.color-white {
+  border: none !important;
+}
+
 /* Analyze Panel */
 aside.analyse__side {
   border-bottom-left-radius: 8px !important;
@@ -701,4 +709,10 @@ blockquote.pull-quote footer {
 blockquote.pull-quote p {
   padding-left: 1rem !important;
   padding-right: 1rem !important;
+}
+
+.dialog-content.game-setup .color-submits {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
 }
