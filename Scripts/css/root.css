@@ -3,11 +3,6 @@
   --c-secondary-dim: var(--primaryColor) !important;
   --c-secondary-dimmer: var(--primaryColor) !important;
   --c-dasher: var(--primaryColor) !important;
-  --m-secondary_bg--mix-10: var(--primaryColor) !important;
-  --m-secondary_bg--mix-12: var(--primaryColor) !important;
-  --m-secondary_bg--mix-15: var(--primaryColor) !important;
-  --m-secondary_bg--mix-20: var(--primaryColor) !important;
-  --m-secondary_bg--mix-25: var(--primaryColor) !important;
   --m-secondary_bg--mix-30: var(--primaryColor) !important;
   --m-secondary_bg--mix-35: var(--primaryColor) !important;
   --m-secondary_bg--mix-40: var(--primaryColor) !important;
@@ -15,8 +10,6 @@
   --m-secondary_bg--mix-70: var(--primaryColor) !important;
   --m-secondary_bg--mix-75: var(--primaryColor) !important;
   --m-secondary_bg--mix-80: var(--primaryColor) !important;
-
-  --c-brag: var(--c-font) !important;
   
   --surfaceBackground: color-mix(in oklab, var(--surfaceColor) 50%, var(--backgroundColor));
 
