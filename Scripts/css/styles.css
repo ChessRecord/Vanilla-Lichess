@@ -660,7 +660,7 @@ span.data-count::after {
   transform: translate(0, -50%) !important;
 }
 
-.swiss__controls button.fbt.text {
+.swiss__controls button.fbt.text:not(.highlight), .tour__controls button.fbt.text:not(.highlight) {
   font-size: 0.875rem !important;
   letter-spacing: 1.5px !important;
   font-weight: 450 !important;
