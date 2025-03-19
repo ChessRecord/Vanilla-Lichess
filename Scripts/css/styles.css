@@ -25,7 +25,7 @@ div.lobby__app.lobby__app-pools div.lobby__app__content.lpools div.perf {
 
 /* Header Elements */
 .site-title:hover .site-name {
-  color: #fff !important;
+  color: var(--defaultWhite) !important;
 }
 
 header#top {
@@ -91,6 +91,10 @@ div.items div.categ.box div.top,
 
 .lobby__tournaments.lobby__box span.progress {
   border-radius: 3px !important;
+}
+
+.lobby__tournaments.lobby__box span.progress time {
+  color: var(--defaultWhite) !important;
 }
 
 .lobby__app.lobby__app-real_time i::before,
@@ -595,7 +599,7 @@ span.data-count::after {
 }
 
 .noUi-connects {
-  background-color: #fff !important;
+  background-color: var(--defaultWhite) !important;
   border-radius: 0 !important;
 }
 
@@ -667,7 +671,7 @@ span.data-count::after {
 }
 
 .fbt.relay-back-to-live.text {
-  color: #fff !important;
+  color: var(--defaultWhite) !important;
 }
 
 .gamebook button.analyse {
