@@ -238,6 +238,10 @@ div.puzzle__side__metas div.infos div div.players span.utitle {
   border: none !important;
 }
 
+.puzzle__controls.analyse-controls .board-menu {
+  font-size: 1rem !important;
+}
+
 /* Analyze Panel */
 aside.analyse__side {
   border-bottom-left-radius: 8px !important;
