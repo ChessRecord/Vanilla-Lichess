@@ -151,11 +151,7 @@ span.cloud {
   align-items: center !important;
 }
 
-.game__meta .game__simul-link {
-  text-align: center !important;
-}
-
-.game__meta .game__tournament-link {
+.game__meta .game__simul-link, .game__meta .game__tournament-link, .game__meta .game__tournament {
   text-align: center !important;
 }
 
@@ -616,7 +612,7 @@ span.data-count::after {
 }
 
 .noUi-connect.noUi-draggable {
-  background-color: #4db3db !important;
+  background-color: var(--secondaryColor) !important;
 }
 
 .user-actions .dropdown a {
