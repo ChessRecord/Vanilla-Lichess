@@ -1,0 +1,11 @@
+{
+  "backgroundColor": "#1E1F22",
+  "surfaceColor": "#2A2D30",
+  "surfaceColorHover": "#34363B",
+  "arrowPrimary": "#177726",
+  "lastMove": "#F5EB3D",
+  "preMove": "#D64D4D",
+  "moveIndicator": "#4B7551",
+  "boardDark": "#B88762",
+  "boardLight": "#EDD6B0"
+}
