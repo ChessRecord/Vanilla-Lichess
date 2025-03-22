@@ -623,6 +623,50 @@ main.page-menu:has(.subnav):has(.page-menu__content) .page-menu__content {
   margin: 0 5px !important;
 }
 
+/*#########*/
+
+.tview2 move.good.active {
+  background: var(--m-good_bg--mix-25) !important;
+}
+
+.tview2 move.good.active {
+  background: var(--m-good_bg--mix-25) !important;
+}
+
+.tview2-inline move.active.blunder, .tview2 line move.active.blunder {
+  outline: 2px solid var(--m-blunder_bg--mix-60) !important;
+}
+
+.tview2 move.blunder.active {
+  background: var(--m-blunder_bg--mix-25) !important;
+}
+
+.tview2-inline move.active.mistake, .tview2 line move.active.mistake {
+  outline: 2px solid var(--m-mistake_bg--mix-60) !important;
+}
+
+.tview2 move.mistake.active {
+  background: var(--m-mistake_bg--mix-25) !important;
+}
+
+.tview2-inline move.active.inaccuracy, .tview2 line move.active.inaccuracy {
+  outline: 2px solid var(--m-inaccuracy_bg--mix-60) !important;
+}
+
+.tview2 move.inaccuracy.active {
+  background: var(--m-inaccuracy_bg--mix-25) !important;
+}
+
+.tview2-inline move.active.interesting, .tview2 line move.active.interesting {
+  outline: 2px solid var(--m-interesting_bg--mix-60) !important;
+}
+
+.tview2 move.interesting.active {
+  background: var(--m-interesting_bg--mix-25) !important;
+}
+
+/*#########*/
+
 .rclock .time {
   margin: auto 0 !important;
 }
