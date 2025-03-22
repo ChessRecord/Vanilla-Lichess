@@ -1,8 +1,0 @@
-.lpools > [data-id="1+0"],
-.lpools > [data-id="2+1"],
-.lpools > [data-id="2+1"],
-.lpools > [data-id="5+0"],
-.lpools > [data-id="3+0"] {
-  opacity: 0.3;
-  pointer-events: none;
-}
