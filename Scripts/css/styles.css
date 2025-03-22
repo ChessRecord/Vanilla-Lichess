@@ -625,12 +625,16 @@ main.page-menu:has(.subnav):has(.page-menu__content) .page-menu__content {
 
 /*#########*/
 
-.tview2-inline move.active.brilliant, .tview2 line move.active.brilliant {
-  outline: 2px solid var(--m-brilliant_bg--mix-60) !important;
+.tview2-inline move.brilliant:not(.active), .tview2 move.brilliant:not(.active), .tview2 line move.brilliant:not(.active) {
+  color: #1bada6 !important;
 }
 
-.tview2 move.brilliant:hover, .tview2 move.brilliant:hover index, .tview2 move.brilliant:hover eval {
-  background: var(--c-brilliant) !important;
+.tview2-inline move.active.brilliant, .tview2 line move.active.brilliant {
+  outline: 2px solid color-mix(in oklab, #1bada6 60%, var(--surfaceColor)) !important;
+}
+
+.tview2 move.brilliant.active {
+  background: color-mix(in oklab, #1bada6 25%, var(--surfaceColor)) !important;
 }
 
 .tview2-inline move.active.good, .tview2 line move.active.good {
