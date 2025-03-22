@@ -670,12 +670,11 @@ span.data-count::after {
 }
 
 .noUi-connects {
-  background-color: var(--defaultWhite) !important;
-  border-radius: 0 !important;
+  background-color: var(--surfaceColor) !important;
 }
 
 .noUi-connect.noUi-draggable {
-  background-color: var(--secondaryColor) !important;
+  background-color: var(--defaultWhite) !important;
 }
 
 .user-actions .dropdown a {
