@@ -618,7 +618,8 @@ main.page-menu:has(.subnav):has(.page-menu__content) .page-menu__content {
   outline-width: 2px !important;
   outline-color: #ddd !important;
   border: none !important;
-  padding: 0 5px !important;
+  padding-left: 4px !important;
+  padding-right: 4px !important;
   margin: 0 5px !important;
 }
 
