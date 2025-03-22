@@ -1,0 +1,50 @@
+@import url("PrettierLichessVariables.css");
+/*Variables from Prettier Lichess*/
+
+div.top, header:not(#top), span.vstext, button.ms-choice.selected {
+    background: none !important;
+    background-color: var(--surfaceColor) !important;
+}
+
+button.ms-choice.selected {
+    border: none !important;
+}
+
+.box.presets {
+    border-top: none !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+div.box.presets a.preset.text:first-child {
+    border-top: none !important;
+}
+
+.insight-stale p{
+    display: none;
+}
+
+.insight__main.box {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.insight__main.box div.chart {
+    border-top: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.hscroll {
+    overflow-x: hidden !important;
+}
+
+.game-sample.box {
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+}

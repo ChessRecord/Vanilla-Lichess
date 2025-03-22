@@ -1,0 +1,59 @@
+{
+  "manifest_version": 2,
+  "name": "Vanilla Lichess",
+  "version": "3.4.5",
+  "description": "Perfects the Prettier Lichess UI.",
+  "content_scripts": [
+    {
+      "matches": ["https://lichess.org/*"],
+      "css": [
+        "Scripts/css/loader.css"
+      ],
+      "js": [
+        "Scripts/js/loader.js"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://lichess.org/*"],
+      "css": [
+        "Scripts/css/styles.css",
+        "Scripts/css/Board/board.css",
+        "Scripts/css/root.css"
+      ],
+      "js": [
+        "Scripts/js/script.js",
+        "Scripts/js/eval.js",
+        "Scripts/js/evalToggle.js",
+        "Scripts/js/flag.js",
+        "Scripts/js/custom-svgs.js",
+        "Scripts/js/shadowFilter.js",
+        "Scripts/js/moveClassification.js"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://lichess.org/@/*"],
+      "css": ["Scripts/css/games.css"],
+      "js": ["Scripts/js/games.js"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://lichess.org/insights/*"],
+      "css": ["Scripts/css/insights.css"],
+      "run_at": "document_start"
+    }
+  ],
+	"content_security_policy": "script-src 'self'; object-src 'self';",
+	"web_accessible_resources": [
+		"styles.css",
+		"fonts/*",
+		"pieces/*"
+	],
+  "icons": {
+    "16": "Logos/Logo16.png",
+    "32": "Logos/Logo32.png",
+    "64": "Logos/Logo64.png",
+    "128": "Logos/Logo128.png"
+  }
+}
