@@ -662,15 +662,15 @@ main.page-menu:has(.subnav):has(.page-menu__content) .page-menu__content {
 }
 
 .tview2-inline move.inaccuracy:not(.active), .tview2 move.inaccuracy:not(.active), .tview2 line move.inaccuracy:not(.active) {
-  color: #F7C631 !important;
+  color: 	hsl(45, 75%, 58%) !important;
 }
 
 .tview2-inline move.active.inaccuracy, .tview2 line move.active.inaccuracy {
-  outline: 2px solid color-mix(in oklab, #F7C631 75%, var(--surfaceColor)) !important;
+  outline: 2px solid hsl(41, 84%, 33%) !important;
 }
 
 .tview2 move.inaccuracy.active {
-  background: color-mix(in oklab, #F7C631 25%, var(--surfaceColor)) !important;
+  background: var(--m-mistake_bg--mix-25) !important;
   color: var(--textColor) !important;
 }
 
