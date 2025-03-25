@@ -614,7 +614,7 @@ main.page-menu:has(.subnav):has(.page-menu__content) .page-menu__content {
   font-size: 1.1em !important;
 }
 
-.tview2.tview2-inline move.active {
+.tview2.tview2-inline move.active, .tview2 line move.active {
   outline-width: 2px !important;
   outline-color: #ddd !important;
   border: none !important;
