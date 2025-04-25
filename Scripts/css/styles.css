@@ -402,8 +402,8 @@ div.eval-gauge::before {
 }*/
 
 /* Form Elements */
-label[for]::before,
-label[for]::after {
+label:not(.mselect__label)[for]::before,
+label:not(.mselect__label)[for]::after {
   transform-origin: 50% 50% !important;
   height: 1.25em !important;
   width: 1.25em !important;
@@ -430,15 +430,6 @@ div.ceval label[for]::after {
   transform: translate(12.5%, -12.5%);
   border: 3px solid #b6647480 !important;
   transition: all 0.3s ease-in-out !important;
-}
-
-label.mselect__label::before,
-label.mselect__label::after {
-  transform-origin: 50% 50% !important;
-  height: 1.5em !important;
-  width: 1.5em !important;
-  transform: translate(-12.5%, 12.5%);
-  border: none !important;
 }
 
 label[for]::before {
@@ -838,4 +829,8 @@ blockquote.pull-quote p {
   display: flex !important;
   flex-direction: row !important;
   align-items: center !important;
+}
+
+.vertical-resize-separator:hover {
+  background: none !important;
 }
