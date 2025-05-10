@@ -141,6 +141,19 @@ div.items div.categ.box div.top,
   padding: 20px !important;
 }
 
+.study-desc div.contrib {
+  background: var(--surfaceBackground) !important;
+  border-radius: 8px !important;
+}
+
+.study-desc-form .title {
+  padding-left: 1rem !important;
+}
+
+textarea#form-control {
+  border-radius: 0 !important;
+}
+
 .analyse__wiki.study__wiki.force-ltr:empty {
   display: none !important;
 }
