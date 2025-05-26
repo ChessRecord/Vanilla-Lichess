@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const shadowSettings = {
         dx: '3',
         dy: '4',
-        stdDeviation: '3',
-        'flood-opacity': '0.55'
+        stdDeviation: '2.5',
+        'flood-opacity': '0.5'
     };
 
     // Create and initialize the MutationObserver
