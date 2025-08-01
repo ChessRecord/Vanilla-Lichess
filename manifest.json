@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Vanilla Lichess",
   "version": "3.4.5",
   "description": "Perfects the Prettier Lichess UI.",
@@ -44,11 +44,16 @@
       "run_at": "document_start"
     }
   ],
-	"content_security_policy": "script-src 'self'; object-src 'self';",
-	"web_accessible_resources": [
-		"styles.css",
-		"fonts/*"
-	],
+  "host_permissions": [
+    "https://lichess.org/*"
+  ],
+  "web_accessible_resources": [{
+    "resources": [
+      "styles.css",
+      "fonts/*"
+    ],
+    "matches": ["https://lichess.org/*"]
+  }],
   "icons": {
     "16": "Logos/Logo16.png",
     "32": "Logos/Logo32.png",
