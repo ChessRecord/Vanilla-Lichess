@@ -844,6 +844,6 @@ blockquote.pull-quote p {
   align-items: center !important;
 }
 
-.vertical-resize-separator:hover {
+.vertical-resize:hover {
   background: none !important;
 }
